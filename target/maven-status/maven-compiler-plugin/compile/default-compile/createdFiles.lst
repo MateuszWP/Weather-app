@@ -1,0 +1,6 @@
+paczwa\controller\BaseController.class
+paczwa\controller\MainWindowController.class
+paczwa\SystemInfo.class
+paczwa\view\ViewFactory.class
+paczwa\App.class
+paczwa\config\OWMConfig.class
