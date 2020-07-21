@@ -1,0 +1,9 @@
+paczwa\controller\TomorrowWeatherWindowController.class
+paczwa\model\CityWeatherForecast.class
+paczwa\controller\BaseController.class
+paczwa\controller\WeekForecastWindowController.class
+paczwa\model\TempInteger.class
+paczwa\controller\MainWindowController.class
+paczwa\view\ViewFactory.class
+paczwa\App.class
+paczwa\config\OWMConfig.class
