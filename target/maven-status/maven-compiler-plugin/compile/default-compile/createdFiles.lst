@@ -1,4 +1,5 @@
 paczwa\controller\TomorrowWeatherWindowController.class
+paczwa\config\Messages.class
 paczwa\controller\BaseController.class
 paczwa\controller\WeekForecastWindowController.class
 paczwa\controller\MainWindowController.class
@@ -6,5 +7,7 @@ paczwa\App.class
 paczwa\model\CityWeatherForecast.class
 paczwa\model\JSONFileReader.class
 paczwa\StarterApp.class
+paczwa\model\CityNameValidator.class
+paczwa\model\Weather.class
 paczwa\view\ViewFactory.class
 paczwa\config\OWMConfig.class
