@@ -1,8 +1,10 @@
 paczwa\controller\TomorrowWeatherWindowController.class
-paczwa\model\CityWeatherForecast.class
 paczwa\controller\BaseController.class
 paczwa\controller\WeekForecastWindowController.class
 paczwa\controller\MainWindowController.class
-paczwa\view\ViewFactory.class
 paczwa\App.class
+paczwa\model\CityWeatherForecast.class
+paczwa\model\JSONFileReader.class
+paczwa\StarterApp.class
+paczwa\view\ViewFactory.class
 paczwa\config\OWMConfig.class
