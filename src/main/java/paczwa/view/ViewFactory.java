@@ -54,4 +54,8 @@ public class ViewFactory {
         stageToClose.close();
         activeStages.remove(stageToClose);
     }
+
+    public List<Stage> getActiveStages() {
+        return activeStages;
+    }
 }
