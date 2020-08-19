@@ -4,8 +4,6 @@ import javafx.application.Application;
 import javafx.stage.Stage;
 import paczwa.view.ViewFactory;
 
-
-
 public class App extends Application {
 
     @Override

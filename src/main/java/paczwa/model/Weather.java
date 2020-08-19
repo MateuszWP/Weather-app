@@ -10,7 +10,7 @@ public class Weather {
     private StringProperty minTemp;
     private String pressure;
     private String humidity;
-    private String wind;
+    private double wind;
     private String clouds;
     private StringProperty description;
     private StringProperty date;
@@ -20,6 +20,11 @@ public class Weather {
         this.minTemp = new SimpleStringProperty();
         this.description = new SimpleStringProperty();
         this.date = new SimpleStringProperty();
+    }
+
+    double convertMeterPerSecondToKilometerPerSecond(double windSpeed){
+        double ratioMeterPerSecondToKilometerPerSecond = 3.6;
+        return windSpeed * ratioMeterPerSecondToKilometerPerSecond;
     }
 
     public void setFeelsLikeTemp(Integer feelsLikeTemp) {
@@ -42,8 +47,8 @@ public class Weather {
         this.humidity = humidity;
     }
 
-    public void setWind(String wind) {
-        this.wind = wind;
+    public void setWind(String windSpeed) {
+        this.wind = convertMeterPerSecondToKilometerPerSecond(Double.parseDouble(windSpeed));
     }
 
     public void setClouds(String clouds) {
@@ -87,7 +92,7 @@ public class Weather {
     }
 
     public String getWind() {
-        return wind;
+        return String.valueOf(wind);
     }
 
     public String getClouds() {
